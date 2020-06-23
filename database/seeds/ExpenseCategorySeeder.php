@@ -12,7 +12,7 @@ class ExpenseCategorySeeder extends Seeder
      */
     public function run()
     {
-        $categories = ['Alimentação', 'Transporte', 'Farmácia', 'Despesas Fixas', 'Pecuária', 'Estudo', 'Lazer'];
+        $categories = ['Alimentação', 'Transporte', 'Farmácia', 'Despesas Fixas', 'Pecuária', 'Estudo', 'Lazer', 'Doação'];
         foreach ($categories as $category) {
             $cat = new ExpenseCategory();
             $cat->name = $category;
